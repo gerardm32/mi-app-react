@@ -1,0 +1,21 @@
+/* src/BooksList.css */
+
+.books-list-container {
+    padding: 20px;
+}
+
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.books-table th, .books-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.books-table th {
+    background-color: #f4f4f4;
+}
