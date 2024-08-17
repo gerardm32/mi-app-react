@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Proyecto de aplicación React con FastAPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+//Pasos para ejecutar la aplicación:
+1 - Activar el entorno virtual:
+| Dirigirse desde la terminal a la ruta del backend a traves del uso de;
 
-## Available Scripts
+# "cd backend"
 
-In the project directory, you can run:
+| Una vez allí, insertar el siguiente comando;
 
-### `npm start`
+[Windows] - "env\Scripts\activate"
+[Mac] - "source env/bin/activate"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2 - Instalar las dependencias:
+| Verificar si existe """requirements.txt""". En caso de que el archivo no exista, crearlo con el siguiente comando;
 
-### `npm test`
+# "pip freeze > requirements.txt"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Una vez creado, ejecutar el siguiente comando:
 
-### `npm run build`
+# "pip install -r requirements.txt" 
+Esto instalara todas las dependencias necesarias.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3 - Correr el FrontEND:
+| Para iniciar la instancia del FrontEND se debera ejecutar, en una nueva terminal preferentemente, el siguiente comando desde la raíz;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# "npm start"
+Esto ejecutara el FrontEND, el cual se abrira automaticamente en el navegador.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4 - Correr el BackEND:
+| Para iniciar la instancia del BackEND se debera ejecutar en otra nueva terminal el siguiente comando en la raíz del proyecto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# "uvicorn backend.app.main:app --reload"
+Esto ejecutara el BackEND.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5 - Probar la aplicación:
+| Una vez hecho todo lo anteriormente mencionado, se podra empezar a probar la aplicación, yo cree un usuario a modo de prueba y aca dejo los datos en caso de prueba:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Usuario: ian
+Email: ian7342@gmail.com
+Contraseña: 12345678
